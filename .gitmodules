@@ -1,0 +1,30 @@
+[submodule "vco"]
+	path = vco
+	url = git@github.com:thismatters/EurorackVco.git
+[submodule "vca"]
+	path = vca
+	url = git@github.com:thismatters/EurorackVca.git
+[submodule "adsr"]
+	path = adsr
+	url = git@github.com:thismatters/EurorackAdsr.git
+[submodule "lfo"]
+	path = lfo
+	url = git@github.com:thismatters/EurorackLfo.git
+[submodule "moog-vcf"]
+	path = moog-vcf
+	url = git@github.com:thismatters/EurorackVcf.git
+[submodule "mult"]
+	path = mult
+	url = https://github.com/thismatters/EurorackMult
+[submodule "slew"]
+	path = slew
+	url = git@github.com:thismatters/EurorackSlew.git
+[submodule "mix"]
+	path = mix
+	url = git@github.com:thismatters/EurorackMix.git
+[submodule "EurorackKiCAD"]
+	path = EurorackKiCAD
+	url = git@github.com:thismatters/EurorackKiCAD.git
+[submodule "sample-hold"]
+	path = sample-hold
+	url = git@github.com:thismatters/EurorackSampleHold.git
