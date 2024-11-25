@@ -21,10 +21,9 @@ You may find some other Eurorack modules among my repositories which are **not**
 | [ADSR](https://github.com/thismatters/EurorackAdsr/) | 6hp  | [V2](https://oshpark.com/shared_projects/UEztaF3P) | Works great! |
 | [LFO](https://github.com/thismatters/EurorackLfo/) | 6hp  | [V0](https://oshpark.com/shared_projects/wfHu28zj) | Really hard to dial in / Doesn't quite work right |
 | [Moog VCF](https://github.com/thismatters/EurorackVcf/) | 8hp  | [V0](https://oshpark.com/shared_projects/SO7swty4) | I'm pretty happy with this, but there is some room for improvement. I want to do another iteration someday. |
-| [Mult](https://github.com/thismatters/EurorackMult) | 1U 11hp | [V0](https://oshpark.com/shared_projects/0YTEwnCD) | This circuit is broken, needs a new iteration. Technically it can be hacked to make functional, but it isn't good. Don't recommend ordering that PCB. |
+| [Mult](https://github.com/thismatters/EurorackMult) | 1U 11hp | ~[V0](https://oshpark.com/shared_projects/0YTEwnCD)~ | This circuit is broken, needs a new iteration. Technically it can be hacked to make functional, but it isn't good. Don't recommend ordering that PCB. |
 | [Mix](https://github.com/thismatters/EurorackMix/) | 1U 30hp | [V0](https://oshpark.com/shared_projects/xlEAsl8K) | Works well enough in its primary function as a mixer, but the LED display is not very good. A new iteration is in order. |
 | [Slew](https://github.com/thismatters/EurorackSlew/) | 1U 12hp | [V0](https://oshpark.com/shared_projects/VN6XGUSn) | Works great! |
 | [Sample Hold](https://github.com/thismatters/EurorackSampleHold/)  | 1U 13hp | [V0](https://oshpark.com/shared_projects/IxCpIOaM) | Works great! |
-|--------------|------|-------------|---------------------------|
 
 All of the aforementioned repositories use this [library of KiCAD symbols and footprints](https://github.com/thismatters/EurorackKiCAD).
