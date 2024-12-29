@@ -28,3 +28,6 @@
 [submodule "sample-hold"]
 	path = sample-hold
 	url = git@github.com:thismatters/EurorackSampleHold.git
+[submodule "saw-animator"]
+	path = saw-animator
+	url = git@github.com:thismatters/EurorackSawAnimator.git
