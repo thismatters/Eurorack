@@ -31,3 +31,6 @@
 [submodule "saw-animator"]
 	path = saw-animator
 	url = git@github.com:thismatters/EurorackSawAnimator.git
+[submodule "clkdiv"]
+	path = clkdiv
+	url = git@github.com:thismatters/EurorackClockDiv.git
