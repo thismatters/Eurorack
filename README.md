@@ -28,7 +28,8 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Slew](https://github.com/thismatters/EurorackSlew/) | 1U 12hp | [V0](https://oshpark.com/shared_projects/VN6XGUSn) | Works great! |
 | [Sample Hold](https://github.com/thismatters/EurorackSampleHold/)  | 1U 13hp | [V0](https://oshpark.com/shared_projects/IxCpIOaM) | Works great! |
 | [Saw Animator](https://github.com/thismatters/EurorackSawAnimator/) | 1U 10hp | [V0](https://oshpark.com/shared_projects/MXBVaxpS) | Works, but there is a slight distortion of the output waveform that I would like to investigate. |
-| [Clock Divider 1](https://github.com/thismatters/EurorackClockDiv/) | 1U 11hp | [V0](https://oshpark.com/shared_projects/ADWTtPJV) |
+| [Clock Divider 1](https://github.com/thismatters/EurorackClockDiv/) | 1U 11hp | [V0](https://oshpark.com/shared_projects/ADWTtPJV) | Works great! |
+| [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | [V0](https://oshpark.com/shared_projects/MmM817Fr) | Works Great! |
 
 
 ## In-Progress Modules
@@ -38,7 +39,6 @@ As the header implies, these modules are in varying degrees of readiness: Design
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
 | [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | ~[V0a]()~ | Design. There was a small, but fatal bug in the V0 circuit. I'm calling the revision V0a because the V0 solder paste stencil will still work for this updated version. |
-| [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | ~[V0]()~ | Design |
 | [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | ~[V0]()~ | Design |
 | [VCO](https://github.com/thismatters/EurorackVco/) | 10hp | ~[V2]()~ | Design -- Fixes ranges on outputs to be more consistent, reduces size |
 
