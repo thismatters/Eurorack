@@ -18,7 +18,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [VCO](https://github.com/thismatters/EurorackVco/) | 12hp | [V1](https://oshpark.com/shared_projects/N1VjtYdp) | Works well, though there can be some inconsistency with trimming. |
+| [VCO](https://github.com/thismatters/EurorackVco/) | 10hp | [V2](https://oshpark.com/shared_projects/FmhO6zEO) | Works great, but relies on a part which may be really hard to source. |
 | [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | [V1](https://oshpark.com/shared_projects/VmwAFYtq) | Works fine! |
 | [ADSR](https://github.com/thismatters/EurorackAdsr/) | 6hp  | [V2](https://oshpark.com/shared_projects/UEztaF3P) | Works great! |
 | [LFO](https://github.com/thismatters/EurorackLfo/) | 6hp  | [V0](https://oshpark.com/shared_projects/wfHu28zj) | Really hard to dial in / Doesn't quite work right |
@@ -29,6 +29,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Sample Hold](https://github.com/thismatters/EurorackSampleHold/)  | 1U 13hp | [V0](https://oshpark.com/shared_projects/IxCpIOaM) | Works great! |
 | [Saw Animator](https://github.com/thismatters/EurorackSawAnimator/) | 1U 10hp | [V0](https://oshpark.com/shared_projects/MXBVaxpS) | Works, but there is a slight distortion of the output waveform that I would like to investigate. |
 | [Clock Divider 1](https://github.com/thismatters/EurorackClockDiv/) | 1U 11hp | [V0](https://oshpark.com/shared_projects/ADWTtPJV) | Works great! |
+| [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | [V0a](https://oshpark.com/shared_projects/LyyWQIPF) | Requires a clean input clock signal, but otherwise works great. |
 | [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | [V0](https://oshpark.com/shared_projects/MmM817Fr) | Works Great! |
 
 
@@ -38,9 +39,7 @@ As the header implies, these modules are in varying degrees of readiness: Design
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | ~[V0a]()~ | Design. There was a small, but fatal bug in the V0 circuit. I'm calling the revision V0a because the V0 solder paste stencil will still work for this updated version. |
-| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | ~[V0]()~ | Design |
-| [VCO](https://github.com/thismatters/EurorackVco/) | 10hp | ~[V2]()~ | Design -- Fixes ranges on outputs to be more consistent, reduces size |
+| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | ~[V1]()~ | Design. The pinout for the DAC is different for the PDIP package and the SMD package :facepalm: |
 
 
 

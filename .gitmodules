@@ -37,3 +37,6 @@
 [submodule "balanced-modulator"]
 	path = balanced-modulator
 	url = git@github.com:thismatters/EurorackBalancedModulator.git
+[submodule "clkdiv2"]
+	path = clkdiv2
+	url = git@github.com:thismatters/EurorackClockDiv2.git
