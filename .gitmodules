@@ -40,3 +40,6 @@
 [submodule "clkdiv2"]
 	path = clkdiv2
 	url = git@github.com:thismatters/EurorackClockDiv2.git
+[submodule "turing-machine"]
+	path = turing-machine
+	url = git@github.com:thismatters/thismattersturingmachine.git

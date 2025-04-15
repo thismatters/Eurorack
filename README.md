@@ -6,7 +6,7 @@ This is a project to track the progress in replicating and updating modules orig
 
 No mass-producing these modules! Friends and family only!
 
-This is a collection of submodules, each of which is itself a Eurorack format module produced in [KiCAD](https://www.kicad.org/) (an open source circuit design suite). These modules are 3U and 1U sized. The 1U modules adhere to the [Intellijel Technical Specifications](https://intellijel.com/support/1u-technical-specifications/).
+This is a collection of submodules, each of which is itself a Eurorack format module produced in [KiCAD](https://www.kicad.org/) (an open source circuit design suite). These modules are 3U and 1U sized. Widths are given in HP and referenced from [this random page on the internet](https://midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html). The 1U modules adhere to the [Intellijel Technical Specifications](https://intellijel.com/support/1u-technical-specifications/).
 
 Each of the completed modules below has had at least one prototype manufacturing run and has been installed in my synth cabinet. Some of them require some amount of hacking to be made functional. If that is the case a warning will appear in the notes. Each repo will have a "tag" for each version that has been sent out for a prototype run. Prototype boards are made by [OSHPark](https://oshpark.com/) which sells in lots of three (3) (plan accordingly), and solder paste stencils by [OSHStencils](https://www.oshstencils.com/). If you're doing a run of these modules I fully recommend getting a stencil for the SMD soldering and using good solder paste.
 
@@ -31,6 +31,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Clock Divider 1](https://github.com/thismatters/EurorackClockDiv/) | 1U 11hp | [V0](https://oshpark.com/shared_projects/ADWTtPJV) | Works great! |
 | [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | [V0a](https://oshpark.com/shared_projects/LyyWQIPF) | Requires a clean input clock signal, but otherwise works great. |
 | [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | [V0](https://oshpark.com/shared_projects/MmM817Fr) | Works Great! |
+| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | [V1](https://oshpark.com/shared_projects/wF94N3Eb) | Works Great! |
 
 
 ## In-Progress Modules
@@ -39,8 +40,8 @@ As the header implies, these modules are in varying degrees of readiness: Design
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | ~[V1]()~ | Design. The pinout for the DAC is different for the PDIP package and the SMD package :facepalm: |
-
+| [Gate Delay](https://github.com/thismatters/EurorackGateDelay) | 1U 12hp | ~[V0]()~ | Design |
+| [Pulse Delay](https://github.com/thismatters/EurorackPulseDelay) | 1U 13hp | ~[V0]()~ | Design |
 
 
 ## Assembly Process
