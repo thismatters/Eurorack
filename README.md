@@ -19,10 +19,10 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
 | [VCO](https://github.com/thismatters/EurorackVco/) | 10hp | [V2](https://oshpark.com/shared_projects/FmhO6zEO) | Works great, but relies on a part which may be really hard to source. |
-| [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | [V1](https://oshpark.com/shared_projects/VmwAFYtq) | Works fine! |
+| [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | [V1](https://oshpark.com/shared_projects/VmwAFYtq) | Works fine, but the layout is very hard to assemble. |
 | [ADSR](https://github.com/thismatters/EurorackAdsr/) | 6hp  | [V2](https://oshpark.com/shared_projects/UEztaF3P) | Works great! |
 | [LFO](https://github.com/thismatters/EurorackLfo/) | 6hp  | [V0](https://oshpark.com/shared_projects/wfHu28zj) | Really hard to dial in / Doesn't quite work right |
-| [Moog VCF](https://github.com/thismatters/EurorackVcf/) | 8hp  | [V0](https://oshpark.com/shared_projects/SO7swty4) | I'm pretty happy with this, but there is some room for improvement. I want to do another iteration someday. |
+| [Moog VCF](https://github.com/thismatters/EurorackVcf/) | 8hp  | [V0](https://oshpark.com/shared_projects/SO7swty4) | I'm pretty happy with this. |
 | [Mult](https://github.com/thismatters/EurorackMult) | 1U 11hp | ~[V0](https://oshpark.com/shared_projects/0YTEwnCD)~ | This circuit is broken, needs a new iteration. Technically it can be hacked to make functional, but it isn't good. Don't recommend ordering that PCB. |
 | [Mix](https://github.com/thismatters/EurorackMix/) | 1U 30hp | [V0](https://oshpark.com/shared_projects/xlEAsl8K) | Works well enough in its primary function as a mixer, but the LED display is not very good. A new iteration is in order. |
 | [Slew](https://github.com/thismatters/EurorackSlew/) | 1U 12hp | [V0](https://oshpark.com/shared_projects/VN6XGUSn) | Works great! |
@@ -31,7 +31,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Clock Divider 1](https://github.com/thismatters/EurorackClockDiv/) | 1U 11hp | [V0](https://oshpark.com/shared_projects/ADWTtPJV) | Works great! |
 | [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | [V0a](https://oshpark.com/shared_projects/LyyWQIPF) | Requires a clean input clock signal, but otherwise works great. |
 | [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | [V0](https://oshpark.com/shared_projects/MmM817Fr) | Works Great! |
-| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | [V1](https://oshpark.com/shared_projects/wF94N3Eb) | Works Great! |
+| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | ~[V1](https://oshpark.com/shared_projects/wF94N3Eb)~ | There is a problem with the randomness and change circuitry. Needs a new version. |
 
 
 ## In-Progress Modules
@@ -42,6 +42,9 @@ As the header implies, these modules are in varying degrees of readiness: Design
 |--------------|------|-------------|---------------------------|
 | [Gate Delay](https://github.com/thismatters/EurorackGateDelay) | 1U 12hp | ~[V0]()~ | Design |
 | [Pulse Delay](https://github.com/thismatters/EurorackPulseDelay) | 1U 13hp | ~[V0]()~ | Design |
+| [Mult](https://github.com/thismatters/EurorackMult) | 1U 12hp | ~[V1]()~ | Design |
+| [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | ~[V2]()~ | Design |
+
 
 
 ## Assembly Process
