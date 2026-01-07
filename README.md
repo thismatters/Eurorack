@@ -31,7 +31,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Clock Divider 1](https://github.com/thismatters/EurorackClockDiv/) | 1U 11hp | [V0](https://oshpark.com/shared_projects/ADWTtPJV) | Works great! |
 | [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | [V0a](https://oshpark.com/shared_projects/LyyWQIPF) | Requires a clean input clock signal, but otherwise works great. |
 | [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | [V0](https://oshpark.com/shared_projects/MmM817Fr) | Works Great! |
-| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | ~[V1](https://oshpark.com/shared_projects/wF94N3Eb)~ | There is a problem with the randomness and change circuitry. Needs a new version. |
+| [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | V1a | Works great! (The V1a board hasn't been sent to manu yet, but the [V1](https://oshpark.com/shared_projects/wF94N3Eb) boards can be refit to the V1a design) |
 
 
 ## In-Progress Modules
@@ -40,9 +40,9 @@ As the header implies, these modules are in varying degrees of readiness: Design
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [Gate Delay](https://github.com/thismatters/EurorackGateDelay) | 1U 12hp | ~[V0]()~ | Design |
-| [Pulse Delay](https://github.com/thismatters/EurorackPulseDelay) | 1U 13hp | ~[V0]()~ | Design |
-| [Mult](https://github.com/thismatters/EurorackMult) | 1U 12hp | ~[V1]()~ | Design |
+| [Gate Delay](https://github.com/thismatters/EurorackGateDelay) | 1U 12hp | [V0](https://oshpark.com/shared_projects/XnestbOz) | Manu |
+| [Pulse Delay](https://github.com/thismatters/EurorackPulseDelay) | 1U 13hp | [V0](https://oshpark.com/shared_projects/BQrPkI6H) | Manu |
+| [Mult](https://github.com/thismatters/EurorackMult) | 1U 12hp | [V1](https://oshpark.com/shared_projects/OAOenJKo) | Manu |
 | [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | ~[V2]()~ | Design |
 
 
