@@ -23,7 +23,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [ADSR](https://github.com/thismatters/EurorackAdsr/) | 6hp  | [V2](https://oshpark.com/shared_projects/UEztaF3P) | Works great! |
 | [LFO](https://github.com/thismatters/EurorackLfo/) | 6hp  | [V0](https://oshpark.com/shared_projects/wfHu28zj) | Really hard to dial in / Doesn't quite work right |
 | [Moog VCF](https://github.com/thismatters/EurorackVcf/) | 8hp  | [V0](https://oshpark.com/shared_projects/SO7swty4) | I'm pretty happy with this. |
-| [Mult](https://github.com/thismatters/EurorackMult) | 1U 11hp | ~[V0](https://oshpark.com/shared_projects/0YTEwnCD)~ | This circuit is broken, needs a new iteration. Technically it can be hacked to make functional, but it isn't good. Don't recommend ordering that PCB. |
+| [Mult](https://github.com/thismatters/EurorackMult) | 1U 12hp | [V1](https://oshpark.com/shared_projects/OAOenJKo) | Works great! |
 | [Mix](https://github.com/thismatters/EurorackMix/) | 1U 30hp | [V0](https://oshpark.com/shared_projects/xlEAsl8K) | Works well enough in its primary function as a mixer, but the LED display is not very good. A new iteration is in order. |
 | [Slew](https://github.com/thismatters/EurorackSlew/) | 1U 12hp | [V0](https://oshpark.com/shared_projects/VN6XGUSn) | Works great! |
 | [Sample Hold](https://github.com/thismatters/EurorackSampleHold/)  | 1U 13hp | [V0](https://oshpark.com/shared_projects/IxCpIOaM) | Works great! |
@@ -32,6 +32,8 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Clock Divider 2](https://github.com/thismatters/EurorackClockDivTwo/) | 1U 10hp  | [V0a](https://oshpark.com/shared_projects/LyyWQIPF) | Requires a clean input clock signal, but otherwise works great. |
 | [Balanced Modulator](https://github.com/thismatters/EurorackBalancedModulator) | 1U 12hp | [V0](https://oshpark.com/shared_projects/MmM817Fr) | Works Great! |
 | [Turing Machine](https://github.com/thismatters/EurorackTuringMachine) | 10hp | V1a | Works great! (The V1a board hasn't been sent to manu yet, but the [V1](https://oshpark.com/shared_projects/wF94N3Eb) boards can be refit to the V1a design) |
+| [Gate Delay](https://github.com/thismatters/EurorackGateDelay) | 1U 12hp | [V1](https://oshpark.com/shared_projects/XnestbOz) | Works great! (The V0 board (in the link) is the same as the V1 board... all that changed was 1 resistor value) |
+| [Pulse Delay](https://github.com/thismatters/EurorackPulseDelay) | 1U 13hp | [V0](https://oshpark.com/shared_projects/BQrPkI6H) | Works great! |
 
 
 ## In-Progress Modules
@@ -40,10 +42,8 @@ As the header implies, these modules are in varying degrees of readiness: Design
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [Gate Delay](https://github.com/thismatters/EurorackGateDelay) | 1U 12hp | [V0](https://oshpark.com/shared_projects/XnestbOz) | Manu |
-| [Pulse Delay](https://github.com/thismatters/EurorackPulseDelay) | 1U 13hp | [V0](https://oshpark.com/shared_projects/BQrPkI6H) | Manu |
-| [Mult](https://github.com/thismatters/EurorackMult) | 1U 12hp | [V1](https://oshpark.com/shared_projects/OAOenJKo) | Manu |
 | [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | ~[V2]()~ | Design |
+| [Kick Drum](https://github.com/thismatters/EurorackKickDrum/) | 6hp  | ~[V0]()~ | Design |
 
 
 
@@ -84,6 +84,7 @@ You will need: an SMD hot-plate (ebay has these pretty cheap), a conventional so
   - Solder face components to their footprints.
   - Tighten face components to face (I like to use some [Rocket Sockets](https://lovemyswitches.com/rocket-sockets-pedal-building-socket-set/) to protect the lovely purple finish on the faceplates!)
 - Adjust trimmers to achieve sonic perfection (Each repo will have instructions for trimming as needed).
+  - So far all modules in this collection can be trimmed in using a single [Mordax Data](https://www.mordax.net/products/data) as a multi-channel oscilloscope and a VCO as a signal generator.
 - Install and enjoy
 
 ## Lessons Learned

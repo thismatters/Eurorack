@@ -43,3 +43,9 @@
 [submodule "turing-machine"]
 	path = turing-machine
 	url = git@github.com:thismatters/thismattersturingmachine.git
+[submodule "gate-delay"]
+	path = gate-delay
+	url = git@github.com:thismatters/EurorackGateDelay.git
+[submodule "pulse-delay"]
+	path = pulse-delay
+	url = git@github.com:thismatters/EurorackPulseDelay.git
