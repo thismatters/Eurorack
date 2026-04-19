@@ -49,3 +49,15 @@
 [submodule "pulse-delay"]
 	path = pulse-delay
 	url = git@github.com:thismatters/EurorackPulseDelay.git
+[submodule "kick-drum"]
+	path = kick-drum
+	url = git@github.com:thismatters/EurorackKickDrum.git
+[submodule "tm-volts"]
+	path = tm-volts
+	url = git@github.com:thismatters/EurorackVolts.git
+[submodule "tm-pulses"]
+	path = tm-pulses
+	url = git@github.com:thismatters/EurorackPulses.git
+[submodule "wavefolder"]
+	path = wavefolder
+	url = git@github.com:thismatters/EurorackWavefolder.git
