@@ -61,3 +61,12 @@
 [submodule "wavefolder"]
 	path = wavefolder
 	url = git@github.com:thismatters/EurorackWavefolder.git
+[submodule "wetmix"]
+	path = wetmix
+	url = git@github.com:thismatters/EurorackWetMix.git
+[submodule "add"]
+	path = add
+	url = git@github.com:thismatters/EurorackAdd.git
+[submodule "mix2"]
+	path = mix2
+	url = git@github.com:thismatters/EurorackMix2.git

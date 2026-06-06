@@ -6,6 +6,8 @@ This is a project to track the progress in replicating and updating modules orig
 
 No mass-producing these modules! Friends and family only!
 
+In addition to the Yusynth line I'm also using [Moritz Klien's youtube channel](https://www.youtube.com/@MoritzKlein0) as a source for circuit designs and education. His videos are really fun and informative. It is worth a subscribe!
+
 This is a collection of submodules, each of which is itself a Eurorack format module produced in [KiCAD](https://www.kicad.org/) (an open source circuit design suite). These modules are 3U and 1U sized. Widths are given in HP and referenced from [this random page on the internet](https://midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html). The 1U modules adhere to the [Intellijel Technical Specifications](https://intellijel.com/support/1u-technical-specifications/).
 
 Each of the completed modules below has had at least one prototype manufacturing run and has been installed in my synth cabinet. Some of them require some amount of hacking to be made functional. If that is the case a warning will appear in the notes. Each repo will have a "tag" for each version that has been sent out for a prototype run. Prototype boards are made by [OSHPark](https://oshpark.com/) which sells in lots of three (3) (plan accordingly), and solder paste stencils by [OSHStencils](https://www.oshstencils.com/). If you're doing a run of these modules I fully recommend getting a stencil for the SMD soldering and using good solder paste.
@@ -19,7 +21,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
 | [VCO](https://github.com/thismatters/EurorackVco/) | 10hp | [V2](https://oshpark.com/shared_projects/FmhO6zEO) | Works great, but relies on a part which may be really hard to source. |
-| [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | [V1](https://oshpark.com/shared_projects/VmwAFYtq) | Works fine, but the layout is very hard to assemble. |
+| [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | ~[V2](https://oshpark.com/shared_projects/JfrQFvFI)~ | Has bug: used wrong pin markings for Q2 and Q3; component is `BEC` and footprint is `CBE`. This can still be assembled by rotating the Q2 and Q3 parts by like 120 degrees CCW. |
 | [ADSR](https://github.com/thismatters/EurorackAdsr/) | 6hp  | [V2](https://oshpark.com/shared_projects/UEztaF3P) | Works great! |
 | [LFO](https://github.com/thismatters/EurorackLfo/) | 6hp  | [V0](https://oshpark.com/shared_projects/wfHu28zj) | Really hard to dial in / Doesn't quite work right |
 | [Moog VCF](https://github.com/thismatters/EurorackVcf/) | 8hp  | [V0](https://oshpark.com/shared_projects/SO7swty4) | I'm pretty happy with this. |
@@ -37,7 +39,10 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Wavefolder](https://github.com/thismatters/EurorackWavefolder/) | 4hp | [V1](https://oshpark.com/shared_projects/R6z3tv0Q) | Works great, but the CV level knob is backward :( (accidentally labelled this as `v1` on the PCB even though it is the first release, oopsP) |
 | [Pulses Expander](https://github.com/thismatters/EurorackPulses/) for Turing Machine | 6hp | [V0](https://oshpark.com/shared_projects/ie2On50L) | Works fine, but two of the jacks are mislabeled (12 and 24 are swapped) |
 | [Volts Expander](https://github.com/thismatters/EurorackVolts/) for Turing Machine | 6hp | [V0](https://oshpark.com/shared_projects/RRs3dh0Z) | Works great! |
-| [Kick Drum](https://github.com/thismatters/EurorackKickDrum/) | 6hp | ~[V0]()~ | Has critical bugs: Scrape the trace between R15 and C5; The footprint for Q2 is CBE (the BC847 is actually BEC), I was able to hack a BC547C (the TO-92 package) to sit on the Q2 footprint. The V1 board has both bugs corrected, but I haven't sent it to manu at this point. |
+| [Kick Drum](https://github.com/thismatters/EurorackKickDrum/) | 6hp | ~[V0](https://oshpark.com/shared_projects/wLEqkfuk)~ | Has critical bugs: Scrape the trace between R15 and C5; The footprint for Q2 is `CBE` (the BC847 is actually `BEC`), you can still place the BC847 by rotating it about 120 degrees CCW (hacks for the win). The V1 board has both bugs corrected, but I haven't sent it to manu at this point. |
+| [Mix (vertical)](https://github.com/thismatters/EurorackMix2/) | 6hp | [V0](https://oshpark.com/shared_projects/MPUfY34w) | Works great! |
+| [Wet Mix](https://github.com/thismatters/EurorackWetMix/) | 1U 9hp | [V0](https://oshpark.com/shared_projects/SWKAWrO8) | Works great, but I want to do a second revision with built-in mults for A and B channels and an LED slider |
+| [Add](https://github.com/thismatters/EurorackAdd/) | 1U 7hp | [V0](https://oshpark.com/shared_projects/97ymydub) | Works great! |
 
 
 ## In-Progress Modules
@@ -46,7 +51,6 @@ As the header implies, these modules are in varying degrees of readiness: Design
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [VCA](https://github.com/thismatters/EurorackVca/) | 6hp  | ~[V2]()~ | Manu |
 | [Snare Drum](https://github.com/thismatters/EurorackSnareDrum/) | 6hp | ~[V0]()~ | Design |
 
 
@@ -104,3 +108,4 @@ You will need: an SMD hot-plate (ebay has these pretty cheap), a conventional so
 - Inspect SMD soldering with the utmost scrutiny. It's pretty easy to get poor quality solder joints during reflow soldering (at least with my janky rig), so I like to use a microscope (or at least the magnifier app on my tablet) to inspect each joint. I use some little pokey tools to remove soldering residue that accumulates between the pins and little solder balls that collect near components. Doing a preliminary cleaning with isopropyl alcohol before inspection makes it a lot easier to see where rework may be needed. During inspection I note any joints which look poor. Subsequently, I use a soldering iron to remove the component, clean the pads with flux and solder braid, then re-solder the component. After the inspection I do another thorough cleaning putting extra focus on the places which weren't perfectly cleaned before. This inspection step is vital to getting good function from the modules; it is much more difficult to correct poor SMD soldering once the through-hole components have been populated on the board.
 - Set aside proper time for building modules. Don't try to rush through building one of these! Enjoy the process.
 - If you're unsure about a design, only assemble one module at first (not the lot of three) so that you can address any issues found with the first module while building the others (or scrap the boards).
+- [OSHPark has a "medium run" offering](https://docs.oshpark.com/services/two-layer-medium-run/) which lets you order 10 boards for the price of 6 (2x regular run), but it takes a little longer to produce. It's a pretty good deal if you know you want a lot of one modules (you can never have enough VCAs!).
