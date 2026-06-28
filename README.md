@@ -40,6 +40,7 @@ All of the repositories in this collection use this [library of KiCAD symbols an
 | [Pulses Expander](https://github.com/thismatters/EurorackPulses/) for Turing Machine | 6hp | [V0](https://oshpark.com/shared_projects/ie2On50L) | Works fine, but two of the jacks are mislabeled (12 and 24 are swapped) |
 | [Volts Expander](https://github.com/thismatters/EurorackVolts/) for Turing Machine | 6hp | [V0](https://oshpark.com/shared_projects/RRs3dh0Z) | Works great! |
 | [Kick Drum](https://github.com/thismatters/EurorackKickDrum/) | 6hp | ~[V0](https://oshpark.com/shared_projects/wLEqkfuk)~ | Has critical bugs: Scrape the trace between R15 and C5; The footprint for Q2 is `CBE` (the BC847 is actually `BEC`), you can still place the BC847 by rotating it about 120 degrees CCW (hacks for the win). The V1 board has both bugs corrected, but I haven't sent it to manu at this point. |
+| [Snare Drum](https://github.com/thismatters/EurorackSnareDrum/) | 6hp | [V0](https://oshpark.com/shared_projects/vcqO2do3) | Works great! |
 | [Mix (vertical)](https://github.com/thismatters/EurorackMix2/) | 6hp | [V0](https://oshpark.com/shared_projects/MPUfY34w) | Works great! |
 | [Wet Mix](https://github.com/thismatters/EurorackWetMix/) | 1U 9hp | [V0](https://oshpark.com/shared_projects/SWKAWrO8) | Works great, but I want to do a second revision with built-in mults for A and B channels and an LED slider |
 | [Add](https://github.com/thismatters/EurorackAdd/) | 1U 7hp | [V0](https://oshpark.com/shared_projects/97ymydub) | Works great! |
@@ -51,7 +52,7 @@ As the header implies, these modules are in varying degrees of readiness: Design
 
 | Name         | Size | Current PCB | Notes                     |
 |--------------|------|-------------|---------------------------|
-| [Snare Drum](https://github.com/thismatters/EurorackSnareDrum/) | 6hp | ~[V0]()~ | Design |
+| [High Hat]() | 6hp | ~[V0]()~ | Design |
 
 
 ## Assembly Process
